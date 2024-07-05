@@ -1,0 +1,33 @@
+// // example-1
+// type Person = { name: string; age: number };
+// type PersonExtend = Person & { id: string };
+
+// const result: PersonExtend = { name: 'kumar', age: 12, id: '012x' };
+// console.log(result);
+
+// example- 2
+
+// interface Person {
+//   name: string;
+//   age: number;
+// }
+// interface PersonExtend extends Person {
+//   id: string;
+// }
+
+// const result: PersonExtend = { name: 'kumar', age: 12, id: '012x' };
+// console.log(result);
+
+// example-3
+type Person = { name: string; age: number };
+type Todo = { adress: string };
+// type PersonExtend = Person & Todo & { id: string };
+type PersonExtend = Person & Todo & { id: string };
+
+const result: PersonExtend = {
+  name: 'kumar',
+  age: 12,
+  adress: 'sre',
+  id: '012x',
+};
+console.log(result);
