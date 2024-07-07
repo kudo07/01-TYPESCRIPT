@@ -9,10 +9,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.6",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   },
   "dependencies": {
+    "date-fns": "^3.6.0",
+    "loadash": "^1.0.0",
     "tsc": "^2.0.4"
   }
 }
